@@ -16,7 +16,8 @@ export default function Front(){
 
 </div>
     <div className="Image-kamran">
-        <img src="https://www.governorsindh.com/_next/static/media/cover.1d863e39.png"/> 
+        <img src="https://www.governorsindh.com/_next/static/media/cover.1d863e39.png"/>
+         
         
     </div>
     
