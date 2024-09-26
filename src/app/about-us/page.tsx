@@ -41,7 +41,7 @@ Our team comprises industry experts, educators, and community leaders committed 
  <h3 className="involve">Get Involved</h3>
  <p className="involve-paragraph">
  
-Join us in shaping the future of Sindh! Whether you're a student eager to learn, an educator,
+Join us in shaping the future of Sindh! Whether you&apos;re a student eager to learn, an educator,
  or a community supporter, there are many ways to get involved. Stay connected with us for updates on courses, 
  events, and initiatives by following us on social media and subscribing to our newsletter.</p>
  <br/>

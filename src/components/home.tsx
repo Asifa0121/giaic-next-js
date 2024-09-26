@@ -1,3 +1,8 @@
+
+import Image from "next/image";
+import profile from "@/profile.jpg"
+
+
 export default function Front(){
     return(
 <div className="home">
@@ -16,8 +21,13 @@ export default function Front(){
 
 </div>
     <div className="Image-kamran">
-        <img src="https://www.governorsindh.com/_next/static/media/cover.1d863e39.png"/>
-         
+       
+         <Image 
+    src={profile} 
+    width={900} 
+    height={1100} 
+    alt="Governor of Sindh" 
+/>
         
     </div>
     
