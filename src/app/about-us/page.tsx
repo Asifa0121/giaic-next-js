@@ -1,10 +1,10 @@
-import Header from "@/components/header";
+
 
 export default function Home(){
     return(
         <div>
             <div>
-                <Header/>
+                
             <div>
                 <h1 className="Heading-about"> About Us </h1>
             </div>
@@ -48,11 +48,6 @@ Join us in shaping the future of Sindh! Whether you&apos;re a student eager to l
 <p className="thank">Thank you for being part of the Governor Sindh Initiative Program. Together, 
 we can empower the next generation of tech leaders!
  </p>
-
- 
-
-
-
 
 </div>
             </div>

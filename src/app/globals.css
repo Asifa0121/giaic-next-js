@@ -11,203 +11,382 @@
 
 }
 
+@media only screen and (max-width:350px){
+  .header-button{
+  font: size 10px;
+ gap: 0px;
+ margin-right: 0px;
+
+      
+  }
+}
 
 .header-button {
-  gap: 50px;
-  font-size:25px;
+  gap: 40px;
+  font-size:15px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   display: flex;
-  justify-content: right;
-  margin-right: 40px;
- 
-  
-}
+  justify-content: center;
+ }
 
 
-.status {
- 
-   font-size: 30px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  display: flex;
-  margin-left: 10px;
-}
+
 /* Jobs */
 .jobs {
   
-  font-size: 40px;
+  font-size: 25px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  justify-content: center;
-   margin: 250px;
   font-weight: bold;
   text-align: center;
   color: rgb(16, 99, 99);
+  padding: 17%;
   
 }
-/* Contact Us */
-.contact {
-  font-size: larger;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: rgb(6, 90, 90);  
+@media only screen and (max-width:350px){
+  .jobs{
+    font-size: 15px;
+    padding: 15%;
+    
+      
+  }
 }
 
+
+/* Contact Us */
+.contact {
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(6, 90, 90); 
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width:350px){
+  .contact{
+    font-size: 10px;
+   margin-left: 0;
+  margin-top: 0
+    
+      
+  }
+}
   .paragraph {
-    font-size: xx-large;
+    font-size: 15px;
     justify-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(15, 127, 127);
   }
-
+  @media only screen and (max-width:350px){
+    .inquiry{
+      font-size: 10px;
+     margin-left: 0;
+    margin-top: 0
+      
+        
+    }
+  }
 
   .inquiry {
-    font-size: 30px;
+    font-size: 15px;
     font-family: cursive;
     color: rgb(15, 127, 127);
     font-weight: bold;
   }
 .link-para{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
+  font-size: 15px;
  
 }
   .link{
-    font-size: 20px;
+    font-size: 15px;
     color:blueviolet;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
+
+  @media only screen and (max-width:350px){
+    .link{
+      font-size: 11px;
+      
+        
+    }
+  }
   /* About US */
   .Heading-about{
-    font-size: 50px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     color: teal;
     
   }
 
+  @media only screen and (max-width:350px){
+    .Heading-about{
+      font-size: 15px;
+             
+    }
+  }
+
   .about-paragraph{
     font-family: 'Times New Roman', Times, serif;
-    font-size: x-large;
+    font-size:15px;
     color: lightseagreen
 
   }
+  @media only screen and (max-width:350px){
+    .about-paragraph{
+      font-size: 10px;
+             
+    }
+  }
 
   .heading-mission{
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     color: teal;
   }
+  @media only screen and (max-width:350px){
+    .heading-mission{
+      font-size: 15px;
+             
+    }
+  }
 
   .mission-paragraph{
     font-family: 'Times New Roman', Times, serif;
-    font-size: x-large;
+    font-size: 15px;
     color: lightseagreen
   }
+  @media only screen and (max-width:350px){
+    .mission-paragraph{
+      font-size: 10px;
+             
+    }
+  }
+
   .offer-course{
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     color: teal
   }
+  @media only screen and (max-width:350px){
+    .offer-course{
+      font-size: 15px;
+             
+    }
+  }
 
   .course-paragraph{
     font-family: 'Times New Roman', Times, serif;
-    font-size: x-large;
+    font-size: 15px;
     color: lightseagreen
- 
+   }
+   @media only screen and (max-width:350px){
+    .course-paragraph{
+      font-size: 11px;
+             
+    }
   }
-
-
   .course-list{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 14px;
     color:lightseagreen;
-   
+   }
+   @media only screen and (max-width:350px){
+    .course-list{
+      font-size: 10px; 
+    }
   }
 
   .list-def{
     font-weight: bolder;
     color: teal
   }
+  @media only screen and (max-width:350px){
+    .team{
+      font-size: 15px;   
+    }
+  }
 
   .team{
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     color: teal
   }
 
+  @media only screen and (max-width:350px){
+    .team-paragraph{
+      font-size: 10px;   
+    }
+  }
+
   .team-paragraph{
     font-family: 'Times New Roman', Times, serif;
-    font-size: x-large;
+    font-size: 15px;
     color: lightseagreen
 }
 
 .involve{
-  font-size: 30px;
+  font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     color:teal
 }
 
+@media only screen and (max-width:350px){
+  .involve{
+    font-size: 15px;   
+  }
+}
+
+
 .involve-paragraph {
   font-family: 'Times New Roman', Times, serif;
-    font-size: x-large;
+    font-size: 15px;
     color: lightseagreen
 }
 
+@media only screen and (max-width:350px){
+  .involve-paragraph{
+    font-size: 10px;   
+  }
+}
+
 .thank{
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: italic;
   color: rgb(10, 89, 89);
   font-weight: bold;
-
+}
+@media only screen and (max-width:350px){
+  .thank{
+    font-size: 12px;   
+  }
 }
 
 .home{
   display: flex;
   justify-content: space-between;
- 
-  
-}
+ }
+ /* @media only screen and (max-width:350px){
+  .home{
+    justify-content: center;   
+  }
+} */
 .gov-sindh{
-  font-size: 70px;
+  font-size: 40px;
   font-weight: bolder;
   color:teal;
   margin-top: 30px;
-
-
 }
-
+@media only screen and (max-width:350px){
+  .gov-sindh{
+    font-size: 10px;   
+  }
+}
 .kamran{
-font-size: 50px;
+font-size: 25px;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 color: teal;
 font-weight: 500;
 }
+@media only screen and (max-width:350px){
+  .kamran{
+    font-size: 8px;   
+  }
+}
 
 .giaic{
-  font-size: 40px;
+  font-size: 29px;
   color: lightseagreen;
   font-weight: bold;
-
+}
+@media only screen and (max-width:350px){
+  .giaic{
+    font-size: 8px;   
+  }
 }
 
 .earn{
-  font-size: 30px;
+  font-size: 23px;
   color: teal;
   font-weight: bold;
-
+  width: 300px;
 }
-
+@media only screen and (max-width:350px){
+  .earn{
+    font-size: 9px;   
+  }
+}
 
 .Image-kamran{
   justify-content: center;
-  margin-top: 20px;
-  height: 500px;
-  width: 800px;
-  margin-right: 5px;
+  margin-top: 35px;
+   margin-left: 200px;
+}
+@media only screen and (max-width:400px){
+  .Image-kamran {
+    justify-content: left;  
+    height: auto;           
+    width: 100%vh; 
+    max-width: 1900vh;      
+    margin-left: 0px;
+    margin-right: 0px; 
+  }
   
+  
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 5px;
+  background-color:teal;
+  color: white;
+  clear: both;
+  position: relative; 
+  z-index: 5;
  
 }
+.footer-section{
+  flex: 1;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+ 
+ 
+
+
+}
+
+
+.footer-list{
+  gap: 40px;
+  font-size:15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  align-content: right;
+  justify-content: right;
+
+  
+}
+
+.location{
+  font-size: 24px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+@media only screen and (max-width:400px){
+.status{
+  font-size: 10px;
+}
+  
+}
+

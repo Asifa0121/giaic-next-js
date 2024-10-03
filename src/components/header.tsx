@@ -4,11 +4,11 @@ export default function Header(){
 <div className="Header">
     
     <ul className="header-button">
-    <div className="status">Tuition Free Education Program on Latest Technologies</div>
+  
     <Link href={"/"}><li>Home</li></Link>
 
-        <Link href={"/about-us"}> <li>About us</li></Link>
-       <Link href={"/contact-us"}><li>Contact us</li></Link>
+        <Link href={"/about-us"}> <li>About</li></Link>
+       <Link href={"/contact-us"}><li>Contact</li></Link>
         <Link href={"/jobs"}> <li>Jobs</li></Link>
        
     </ul>
